@@ -16,6 +16,7 @@ Each system has :
 * a parent (another system or the mastermind)
 * a `create function(div)` that `return function refreshFcn(dt)`
 * a removeFunction `rmFcn(args)`
+* an `active` property, if active, call `refreshFcn`
 
 A system can be a controller, a view, a model, a visual-coding tool, ...
 
@@ -39,7 +40,7 @@ SYSTEM_X = function(){
 	var that = this;
 	that.id = 'system_x';
 	that.data = {x:0};
-	//that.parentId = 'topbar';
+	//that.parentId = 'another_sys';
 	that.createFcn = function(div){
 	  	var p = div.append('p')
 	  		.on('click', function(){
