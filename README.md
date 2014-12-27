@@ -1,6 +1,8 @@
 # System View
 A javascript application framework with built-in visual coding functionnality.
 
+It requires D3.js because it rocks.
+
 *warning* : At this point I do not know if this is a great or stupid idea. The reason I built this was to provide me a way to easily view the structure of my app.
 
 
@@ -19,6 +21,7 @@ Each system has :
 * an `active` property -> if `active`, call `refreshFcn`, if not, dont.
 
 A system can be a controller, a view, a model, a visual-coding tool, ...
+A system can be a collection of systems.
 
 
 ## Mastermind?
