@@ -5,11 +5,11 @@ A javascript application framework with built-in visual coding functionnality.
 
 
 ## Why?
-To simplify the backend developpement of apps by giving the developper integrated tools to view and interact with the code. 
+To simplify the backend developpement of apps by giving the developper integrated tools to view and interact with the systems. 
 
 
 ## How?
-By using systems that can intercommunicate via the mastermind.
+By structuring the app with systems that can intercommunicate via the mastermind.
 
 Each system has :
 * a data field (model)
@@ -39,7 +39,7 @@ SYSTEM_X = function(){
 	var that = this;
 	that.id = 'system_x';
 	that.data = {x:0};
-	that.parentId = 'topbar';
+	//that.parentId = 'topbar';
 	that.createFcn = function(div){
 	  	var p = div.append('p')
 	  		.on('click', function(){
