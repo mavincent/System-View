@@ -1,7 +1,7 @@
 # System View
 A javascript application framework with built-in visual coding functionnality.
 
-It requires D3.js because it rocks.
+It requires D3.js.
 
 *warning* : At this point I do not know if this is a great or stupid idea. The reason I built this was to provide me a way to easily view the structure of my app.
 
