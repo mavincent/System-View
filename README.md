@@ -16,7 +16,7 @@ Each system has :
 * a parent (another system or the mastermind)
 * a `create function(div)` that `return function refreshFcn(dt)`
 * a removeFunction `rmFcn(args)`
-* an `active` property, if active, call `refreshFcn`
+* an `active` property -> if `active`, call `refreshFcn`, if not, dont.
 
 A system can be a controller, a view, a model, a visual-coding tool, ...
 
