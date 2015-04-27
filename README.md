@@ -1,17 +1,16 @@
 # System View
-A javascript application framework with built-in visual coding functionnality.
+Another javascript application framework.
 
 It requires D3.js.
 
-*warning* : At this point I do not know if this is a great or stupid idea. The reason I built this was to provide me a way to easily view the structure of my app.
-
 
 ## Why?
-To simplify the backend developpement of apps by giving the developper integrated tools to view and interact with the systems. 
+To simplify the interactions between systems.
 
 
 ## How?
 By structuring the app with systems that can intercommunicate via the mastermind.
+
 
 Each system has :
 * a data field (model)
