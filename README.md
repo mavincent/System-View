@@ -1,11 +1,9 @@
 # System View
-Another javascript application framework.
-
-It requires D3.js.
+Another javascript application framework based on d3.js
 
 
 ## Why?
-To simplify the interactions between systems.
+To simplify the visual representation of interacting systemss.
 
 
 ## How?
@@ -18,6 +16,7 @@ Each system has :
 * a `create function(div)` that `return function refreshFcn(dt)`
 * a removeFunction `rmFcn(args)`
 * an `active` property -> if `active`, call `refreshFcn`, if not, dont.
+
 
 A system can be a controller, a view, a model, a visual-coding tool, ...
 A system can be a collection of systems.
